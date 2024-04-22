@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#nav {
+    display: flex;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.46);
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+
+}
+
+#logo {
+    color: rgb(255, 179, 37);
+    padding-left: 90px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 160px;
+}
+
+.nav-li {
+    color: white;
+    margin-right: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.nav-li:hover {
+    text-decoration: dotted;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.563);
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#bdy {
+    background-image: url(wal.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+
+
+#para {
+    margin: 100px 100px 0px 100px;
+    width: 500px;
+}
+
+#first {
+    font-family: italic;
+    font-size: 100px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#first:hover {
+    transition: 0.5s;
+    font-family: italic;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#second {
+    padding-left: 80px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    color: white;
+}
+
+#third {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#menubtn {
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    border: 5% solid black;
+}
+
+#menubtn:hover {
+    transition: 0.2s;
+    background-color: #ffc800;
+    color: rgb(0, 0, 0);
+}
+
+#logo-foot {
+    padding-top: 30px;
+    background-color: rgba(10, 9, 9, 0.519);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+#foot {
+    background-color: rgba(10, 9, 9, 0.519);
+    height: 230px;
+    display: flex;
+}
+
+#conta {
+    margin-left: 90px;
+
+}
+
+#conta h1 {
+    color: black;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.conta-li {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    color: black;
+    margin: 8px;
+    text-decoration: none;
+}
+
+#comp {
+    margin-left: 90px;
+}
+
+.comp-li {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    color: black;
+    margin: 8px;
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+#comp h1 {
+    font-size: 30px;
+    color: black;
+    margin-left: 60px;
+}
+
+#Terms {
+    margin-left: 90px;
+}
+
+.Terms-li {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    color: black;
+    margin: 8px;
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+#Terms h1 {
+    font-size: 30px;
+    color: black;
+    margin-left: 110px;
+}
+
+#deliver {
+    margin-left: 90px;
+}
+
+.deliver-li {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    color: black;
+    margin: 8px;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+#deliver h1 {
+    font-size: 30px;
+    color: black;
+    margin-left: 110px;
+}
+
+#icon {
+    background-color: rgba(10, 9, 9, 0.519);
+    height: 150px;
+    padding-left: 650px;
+}
+
+#icon-h1 {
+    color: rgb(75, 30, 210);
+
+
+}
+
+#icon i {
+    padding-top: 20px;
+    font-size: 40px;
+    color: black;
+    padding-right: 20px;
+    cursor: pointer;
+
+
+}
+
+#account {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    margin-left: 190px;
+}
+
+.profile {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 90px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.profile:hover {
+    background-color: brown;
+}
+
+#welcom {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    margin-left: 190px;
+    color: black;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+
+}
+
+/*#nav{
+    display:flex;
+    font-size: 2em;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
+    position: fixed;
+    
+}
+
+#logo{
+    color:red;
+    padding-left: 90px;
+    margin-right: 160px;
+}
+
+.nav-li{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.nav-li:hover{
+    background-color: chocolate; 
+    color: black;
+    border-radius: 5px;
+    width: 50px;
+} */
+#h1 {
+    color: black;
+    font-size: 2em;
+    padding-top: 120px;
+    padding-left: 80px;
+
+}
+
+
+
+
+#empty p {
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 80%;
+}
+#empty p:hover {
+    transition: ease-in-out;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 80%;
+    text-shadow: 0 0 4px;
+}
+
+#menu1 {
+
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+#menu1:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#item1 {
+
+    background-image: url(pizza.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+
+}
+
+#menu2 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#item2 {
+    background-image: url(frys.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#menu3 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu3:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#item3 {
+    background-image: url(burger.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#menu4 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu4:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#item4 {
+    background-image: url(pasta.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#menu-list {
+
+    margin: 20px 0px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+
+#menu21 {
+
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    transition: 0.3s;
+
+}
+
+#menu21:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item21 {
+    background-image: url(panipuri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#menu22 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu22:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item22 {
+    background-image: url(panneerrice.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#menu23 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu23:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item23 {
+    background-image: url(vegmixfry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#menu24 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu24:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item24 {
+    background-image: url(samosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#menu-list2 {
+    margin: 20px 0px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+
+#menu31 {
+
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    transition: 0.3s;
+
+}
+
+#menu31:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item31 {
+    background-image: url(idly.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#menu32 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu32:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item32 {
+    background-image: url(puri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#menu33 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu33:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item33 {
+    background-image: url(dosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#menu34 {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: azure;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#menu34:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#item34 {
+    background-image: url(bhel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#menu-list3 {
+    margin: 20px 0px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+
+.bdy {
+    
+}
